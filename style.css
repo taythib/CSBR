@@ -29,23 +29,21 @@ body {
 }
 
 .bg-image1 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://www.neworleanstimelapse.com/wp-content/uploads/2013/01/new-orleans-skyline-new-orleans-time-lapse.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('test-img3.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     /* Black w/opacity */
-    display: block;
+    /*display: block;
     filter: blur(3px);
-    -webkit-filter: blur(5px);
+    -webkit-filter: blur(5px);*/
     height: 100%;
-    z-index: 5;
+    z-index: 1;
 }
 
 .bg-image2 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://lsu.edu/_resources/images/visit3.jpeg');
     background-color: rgba(0, 0, 0, 0.5);
     /* Black w/opacity */
-    display: block;
     height: 100%;
-    left: 100%
 }
 
 .bg-container {
@@ -141,20 +139,18 @@ body {
 .info {
     height: 400px;
     width: 100%;
-    background-color: rgba(114, 22,44, 1);
+    /*background-color: rgba(114, 22,44, 1);*/
+    background-color: rgba(4, 102, 85, 1);
 }
 
 .back-box {
     width: 100%;
     max-height: 150px;
-    background-color: rgba(4, 102, 85, 1);
-    position: absolute;;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
     z-index: 3;
 }
 
-.links {
-    position: relative;
-}
 
 .link-container {
     position: relative;
